@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>App Title</title>
+    <link rel="stylesheet" href="css/bundle.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <!-- Delete lines 8 through 51 to get rid of the placeholder -->
+    <style>
+      .demo-card-event.mdl-card {
+        width: 256px;
+        height: 256px;
+        background: #3E4EB8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .demo-card-event > .mdl-card__actions {
+        border-color: rgba(255, 255, 255, 0.2);
+      }
+      .demo-card-event > .mdl-card__title {
+        align-items: flex-start;
+      }
+      .demo-card-event > .mdl-card__title > h4 {
+        margin-top: 0;
+      }
+      .demo-card-event > .mdl-card__actions {
+        display: flex;
+        box-sizing:border-box;
+        align-items: center;
+      }
+      .demo-card-event > .mdl-card__title,
+      .demo-card-event > .mdl-card__actions,
+      .demo-card-event > .mdl-card__actions > .mdl-button {
+        color: #fff;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+
+    </style>
+    <section>
+      <div class="demo-card-event mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title mdl-card--expand">
+          <h4>
+            Hello World.<br>
+            This is an MDL<br>
+            Card Placeholder.
+          </h4>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            This is a button
+          </a>
+          <div class="mdl-layout-spacer"></div>
+          <i class="material-icons">visibility</i>
+        </div>
+      </div><!-- End the Placeholder -->    
+    </section> 
+    <div id="app"></div>
+    <script src="scripts/bundle.js"></script>
+  </body>
+</html>
